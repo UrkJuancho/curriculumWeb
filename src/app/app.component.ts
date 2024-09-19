@@ -1,15 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { UserComponent } from './user/user.component';
-import { CommentsComponent } from './comments/comments.component'
+import { WhoIAmComponent } from './components/who-iam/who-iam.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, UserComponent, CommentsComponent],
+  imports: [RouterOutlet, WhoIAmComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  city = 'Pasto'
+  title = 'portfolioWeb';
 }
