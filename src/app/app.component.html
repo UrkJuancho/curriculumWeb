@@ -1,23 +1,2 @@
-<div>
-<h1>This IS ANGULAR!</h1>
-<article>
-<p>**Angular** es un framework de desarrollo web de código abierto basado en JavaScript (específicamente en TypeScript) que facilita la creación de aplicaciones web robustas y eficientes. Fue diseñado para construir aplicaciones de una sola página (SPA, por sus siglas en inglés) que pueden cargarse dinámicamente sin la necesidad de recargar completamente la página en el navegador. Angular permite a los desarrolladores escribir código modular, reutilizable y de fácil mantenimiento, ideal para aplicaciones grandes y complejas. Este framework ofrece una estructura clara para el desarrollo, separando la lógica de la presentación, lo que facilita la colaboración en equipos grandes.
-
-Entre las **herramientas** que ofrece Angular se encuentran componentes reutilizables, directivas, inyección de dependencias, servicios y enrutamiento. Los componentes son la base de Angular y permiten estructurar la aplicación en partes pequeñas y manejables. El enrutamiento facilita la navegación entre diferentes vistas de la aplicación, mientras que la inyección de dependencias permite gestionar y compartir servicios de manera eficiente. Angular CLI (Command Line Interface) es otra herramienta clave que ayuda a automatizar tareas comunes, como la creación de componentes, pruebas unitarias y compilación de la aplicación.
-
-Angular fue creado originalmente por **Google**, con la primera versión, conocida como AngularJS, lanzada en 2010. Con el tiempo, el equipo de Angular decidió rediseñar completamente el framework, lo que resultó en el lanzamiento de Angular 2 en 2016. Desde entonces, Google ha continuado manteniendo y actualizando Angular, con una comunidad global de desarrolladores que también contribuye a su crecimiento. Aunque AngularJS y Angular (a partir de la versión 2) comparten el mismo nombre, son tecnologías diferentes, con Angular basado en TypeScript en lugar de JavaScript puro.
-
-Las **novedades** recientes de Angular incluyen mejoras en la eficiencia del rendimiento y nuevas funcionalidades. Entre estas se destacan la integración mejorada con Web Components, el soporte completo para Ivy, el motor de renderizado que reduce el tamaño del paquete y mejora la velocidad de ejecución de las aplicaciones. Además, Angular ha introducido APIs más simples y potentes para el manejo de formularios, nuevas opciones de manejo de errores, y actualizaciones en las herramientas de desarrollo, como mejoras en Angular DevTools para depuración. También se ha trabajado en una mejor interoperabilidad con otras bibliotecas y frameworks de JavaScript.</p></article>
-
-@defer(on viewport){
-	<app-comments></app-comments>
-}	@placeholder {
-	<p>Futuros comentarios</p>
-} @loading (minimum 10s) {
-	<p>Cargando Comentarios...</p>
-}
-
-</div>
-
-<!-- <app-user></app-user> -->
-<!-- <router-outlet /> -->
+<app-who-iam></app-who-iam>
+<router-outlet />
